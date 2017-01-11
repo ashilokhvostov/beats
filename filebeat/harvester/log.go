@@ -12,12 +12,12 @@ import (
 
 	"fmt"
 
-	"github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/filebeat/harvester/source"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/filebeat/config"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/reader"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/source"
+	"github.com/ashilokhvostov/beats/filebeat/input"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 var (

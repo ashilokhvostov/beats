@@ -10,9 +10,9 @@ import (
 
 	"path/filepath"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
 	"github.com/stretchr/testify/assert"
 )
 

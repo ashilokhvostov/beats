@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/transport"
 )
 
 type redisConfig struct {

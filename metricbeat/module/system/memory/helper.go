@@ -3,8 +3,8 @@
 package memory
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/system"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system"
 	sigar "github.com/elastic/gosigar"
 )
 

@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/winlogbeat/sys"
 )
 
 // Debug selectors used in this package.

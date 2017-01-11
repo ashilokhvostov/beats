@@ -1,6 +1,6 @@
 package beater
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/ashilokhvostov/beats/libbeat/common"
 
 // Config is the root of the Metricbeat configuration hierarchy.
 type Config struct {

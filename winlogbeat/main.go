@@ -10,8 +10,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/winlogbeat/beater"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/winlogbeat/beater"
 )
 
 // Name of this beat.

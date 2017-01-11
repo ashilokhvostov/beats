@@ -3,7 +3,7 @@ package file
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 type File struct {

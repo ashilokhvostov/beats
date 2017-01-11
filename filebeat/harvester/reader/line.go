@@ -6,8 +6,8 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/transform"
 
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/common/streambuf"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 // lineReader reads lines from underlying reader, decoding the input stream

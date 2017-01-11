@@ -5,11 +5,11 @@ package beater_test
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher"
-	pubtest "github.com/elastic/beats/libbeat/publisher/testing"
-	metricbeat "github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/publisher"
+	pubtest "github.com/ashilokhvostov/beats/libbeat/publisher/testing"
+	metricbeat "github.com/ashilokhvostov/beats/metricbeat/beater"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 
 	"github.com/stretchr/testify/assert"
 )

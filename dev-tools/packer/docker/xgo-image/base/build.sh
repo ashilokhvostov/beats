@@ -32,10 +32,10 @@ else
 fi
 
 # If it is an official beat, libbeat is not vendored, need special treatment
-if [[ $GIT_REPO == "github.com/elastic/beats"* ]]; then
+if [[ $GIT_REPO == "github.com/ashilokhvostov/beats"* ]]; then
     echo "Overwrite directories because official beat"
-    DST_FOLDER=$GOPATH/src/github.com/elastic/beats
-    GIT_REPO=github.com/elastic/beats
+    DST_FOLDER=$GOPATH/src/github.com/ashilokhvostov/beats
+    GIT_REPO=github.com/ashilokhvostov/beats
 fi
 
 # It is assumed all dependencies are inside the working directory

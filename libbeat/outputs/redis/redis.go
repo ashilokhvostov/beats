@@ -5,14 +5,14 @@ import (
 	"expvar"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/modeutil"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common/op"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/mode"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/mode/modeutil"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/outil"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/transport"
 )
 
 type redisOut struct {

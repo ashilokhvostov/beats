@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"errors"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 	"gopkg.in/inf.v0"
 	"strings"
 )

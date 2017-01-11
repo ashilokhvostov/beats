@@ -12,4 +12,4 @@ RUN mkdir -p /etc/pki/tls/certs
 COPY testing/environments/docker/logstash/pki/tls/certs/logstash.crt /etc/pki/tls/certs/logstash.crt
 
 # Create a copy of the respository inside the container.
-COPY . /go/src/github.com/elastic/beats/
+COPY . /go/src/github.com/ashilokhvostov/beats/

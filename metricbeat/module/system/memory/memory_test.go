@@ -5,7 +5,7 @@ package memory
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/ashilokhvostov/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

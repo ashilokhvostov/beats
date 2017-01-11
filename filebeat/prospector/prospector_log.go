@@ -7,10 +7,10 @@ import (
 
 	"expvar"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/filebeat/harvester"
+	"github.com/ashilokhvostov/beats/filebeat/input"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 var (

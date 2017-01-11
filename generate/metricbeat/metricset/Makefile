@@ -17,8 +17,8 @@ test: python-env
 	. ${PYTHON_ENV}/bin/activate && cookiecutter --no-input -o build/src/beatpath -f build
 
 	# Makes sure to use current version of beats for testing
-	mkdir -p ${BUILD_DIR}/src/github.com/elastic/beats/
-	rsync -a --exclude=generate ${PWD}/../../../* ${BUILD_DIR}/src/github.com/elastic/beats/
+	mkdir -p ${BUILD_DIR}/src/github.com/ashilokhvostov/beats/
+	rsync -a --exclude=generate ${PWD}/../../../* ${BUILD_DIR}/src/github.com/ashilokhvostov/beats/
 
 	. ${PYTHON_ENV}/bin/activate; \
 	export GOPATH=${PWD}/build ; \
@@ -34,7 +34,7 @@ test: python-env
 test-build: test
 
 	# Copy dev tools
-	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/elastic/beats/
+	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/ashilokhvostov/beats/
 
 	cd ${BEAT_PATH}/dev-tools/packer ; \
 	make deps ; \

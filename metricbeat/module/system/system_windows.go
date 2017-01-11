@@ -3,7 +3,7 @@ package system
 import (
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 	"github.com/elastic/gosigar/sys/windows"
 	"github.com/pkg/errors"
 )

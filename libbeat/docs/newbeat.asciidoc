@@ -38,7 +38,7 @@ people learned Go by contributing to Packetbeat and libbeat, including the
 original Packetbeat authors.
 
 For general information about contributing to Beats, see our
-https://github.com/elastic/beats/blob/master/CONTRIBUTING.md[Contributing Guide].
+https://github.com/ashilokhvostov/beats/blob/master/CONTRIBUTING.md[Contributing Guide].
 
 After you have https://golang.org/doc/install[installed Go] and set up the
 https://golang.org/doc/code.html#GOPATH[GOPATH] environment variable to point to
@@ -47,11 +47,11 @@ Beats, including libbeat and the Beat generator, is to do:
 
 [source,shell]
 ----------------------------------------------------------------------
-go get github.com/elastic/beats
+go get github.com/ashilokhvostov/beats
 ----------------------------------------------------------------------
 
 When you run the command, all source files are downloaded to the
-`$GOPATH/src/github.com/elastic/beats` path. You can ignore the "no buildable Go source files" message because
+`$GOPATH/src/github.com/ashilokhvostov/beats` path. You can ignore the "no buildable Go source files" message because
 you will build the source later.
 
 [[newbeat-overview]]
@@ -91,7 +91,7 @@ The following example shows an event object in Lsbeat:
   "filename": "winlogbeat.yml",
   "filesize": 2895,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/winlogbeat.yml",
+  "path": "./vendor/github.com/ashilokhvostov/beats/winlogbeat/winlogbeat.yml",
   "type": "lsbeat"
 }
 
@@ -105,7 +105,7 @@ The following example shows an event object in Lsbeat:
   "filename": "system",
   "filesize": 238,
   "modtime": "2016-07-13T20:56:21.000Z",
-  "path": "./vendor/github.com/elastic/beats/winlogbeat/tests/system",
+  "path": "./vendor/github.com/ashilokhvostov/beats/winlogbeat/tests/system",
   "type": "lsbeat"
 }
 ----------------------------------------------------------------------
@@ -136,7 +136,7 @@ Run cookiecutter and specify the path to the Beat generator:
 
 [source,shell]
 --------------------
-cookiecutter $GOPATH/src/github.com/elastic/beats/generate/beat
+cookiecutter $GOPATH/src/github.com/ashilokhvostov/beats/generate/beat
 --------------------
 
 Cookiecutter will prompt you to enter information about your Beat. For the `project_name`, enter `Countbeat`.
@@ -470,7 +470,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
 
 	"github.com/kimjmin/countbeat/beater"
 )

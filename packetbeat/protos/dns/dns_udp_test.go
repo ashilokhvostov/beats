@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/publish"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
+	"github.com/ashilokhvostov/beats/packetbeat/publish"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common"
 
 	mkdns "github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"

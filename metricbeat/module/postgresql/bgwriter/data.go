@@ -3,8 +3,8 @@ package bgwriter
 import (
 	"time"
 
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstrstr"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
+	c "github.com/ashilokhvostov/beats/metricbeat/schema/mapstrstr"
 )
 
 var schema = s.Schema{

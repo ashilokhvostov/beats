@@ -3,10 +3,10 @@ package keyspace
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/redis"
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstrstr"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/module/redis"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
+	c "github.com/ashilokhvostov/beats/metricbeat/schema/mapstrstr"
 )
 
 // Map data to MapStr

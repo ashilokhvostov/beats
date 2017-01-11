@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	metricbeat "github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	metricbeat "github.com/ashilokhvostov/beats/metricbeat/beater"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 )
 
 // ExampleModuleWrapper demonstrates how to create a single ModuleWrapper

@@ -2,10 +2,10 @@ package cassandra
 
 import (
 	"errors"
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
-	. "github.com/elastic/beats/packetbeat/protos/cassandra/internal/gocql"
+	"github.com/ashilokhvostov/beats/libbeat/common/streambuf"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/packetbeat/protos/applayer"
+	. "github.com/ashilokhvostov/beats/packetbeat/protos/cassandra/internal/gocql"
 	"time"
 )
 

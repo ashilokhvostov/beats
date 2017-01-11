@@ -27,9 +27,9 @@ ZooKeeper mntr Command Output
 package mntr
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/zookeeper"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/metricbeat/module/zookeeper"
 
 	"github.com/pkg/errors"
 )

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/elastic/beats/metricbeat/mb/testing"
+	_ "github.com/ashilokhvostov/beats/metricbeat/mb/testing"
 )
 
 func TestNewDB(t *testing.T) {

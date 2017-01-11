@@ -45,8 +45,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/schema"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/schema"
 )
 
 // toBool converts value to bool. In case of error, returns false

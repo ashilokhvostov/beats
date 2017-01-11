@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/reader"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 // Event is sent to the output and must contain all relevant information

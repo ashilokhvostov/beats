@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/elastic/beats/filebeat/harvester/encoding"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/encoding"
 	"github.com/stretchr/testify/assert"
 
 	"golang.org/x/text/transform"

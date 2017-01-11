@@ -3,8 +3,8 @@ package publisher
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/common/op"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
 )
 
 type bulkWorker struct {

@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester/encoding"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/encoding"
 )
 
 // Encode reader produces lines by reading lines from an io.Reader

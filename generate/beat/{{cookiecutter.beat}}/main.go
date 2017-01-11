@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
 
 	"{{cookiecutter.beat_path}}/{{cookiecutter.beat}}/beater"
 )

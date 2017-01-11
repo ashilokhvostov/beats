@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/publish"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
+	"github.com/ashilokhvostov/beats/packetbeat/publish"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tsg/gopacket/layers"

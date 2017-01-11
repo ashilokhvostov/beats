@@ -3,7 +3,7 @@ package harvester
 import (
 	"os"
 
-	"github.com/elastic/beats/filebeat/harvester/source"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/source"
 )
 
 // Stdin reads all incoming traffic from stdin and sends it directly to the output

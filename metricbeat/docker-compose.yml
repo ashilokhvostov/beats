@@ -30,11 +30,11 @@ beat:
     - HAPROXY_HOST=haproxy
     - HAPROXY_PORT=14567
     - TEST_ENVIRONMENT=false
-  working_dir: /go/src/github.com/elastic/beats/metricbeat
+  working_dir: /go/src/github.com/ashilokhvostov/beats/metricbeat
   volumes:
-    - ${PWD}/..:/go/src/github.com/elastic/beats/
+    - ${PWD}/..:/go/src/github.com/ashilokhvostov/beats/
   command: make
-  entrypoint: /go/src/github.com/elastic/beats/metricbeat/docker-entrypoint.sh
+  entrypoint: /go/src/github.com/ashilokhvostov/beats/metricbeat/docker-entrypoint.sh
 
 # Overloading kibana with a simple image as it is not needed here
 kibana:

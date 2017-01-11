@@ -25,7 +25,7 @@ This following topics describe how to contribute to Metricbeat by adding metrics
 * <<dev-faq>>
 
 If you would like to contribute to Metricbeat or the Beats project, also see the
-https://github.com/elastic/beats/blob/master/CONTRIBUTING.md[general contributor guide].
+https://github.com/ashilokhvostov/beats/blob/master/CONTRIBUTING.md[general contributor guide].
 
 --
 

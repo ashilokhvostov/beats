@@ -3,10 +3,10 @@ package {{ cookiecutter.module }}
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/packetbeat/procs"
+	"github.com/ashilokhvostov/beats/packetbeat/protos/applayer"
 )
 
 type transactions struct {

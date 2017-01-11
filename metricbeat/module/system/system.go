@@ -5,7 +5,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 )
 
 var (

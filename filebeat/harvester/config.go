@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester/reader"
-	"github.com/elastic/beats/libbeat/common"
+	cfg "github.com/ashilokhvostov/beats/filebeat/config"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/reader"
+	"github.com/ashilokhvostov/beats/libbeat/common"
 
 	"github.com/dustin/go-humanize"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 var (

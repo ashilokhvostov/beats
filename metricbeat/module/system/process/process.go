@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/system"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system"
 
 	"github.com/elastic/gosigar/cgroup"
 	"github.com/pkg/errors"

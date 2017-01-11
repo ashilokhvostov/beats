@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	mbtest "github.com/ashilokhvostov/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

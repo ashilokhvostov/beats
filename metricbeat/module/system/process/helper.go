@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/module/system"
-	"github.com/elastic/beats/metricbeat/module/system/memory"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system/memory"
 	sigar "github.com/elastic/gosigar"
 )
 

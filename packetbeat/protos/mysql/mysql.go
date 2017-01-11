@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
-	"github.com/elastic/beats/packetbeat/publish"
+	"github.com/ashilokhvostov/beats/packetbeat/procs"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
+	"github.com/ashilokhvostov/beats/packetbeat/protos/tcp"
+	"github.com/ashilokhvostov/beats/packetbeat/publish"
 )
 
 // Packet types

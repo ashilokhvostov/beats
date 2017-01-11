@@ -1,4 +1,4 @@
-package: github.com/elastic/beats
+package: github.com/ashilokhvostov/beats
 import:
 - package: github.com/garyburd/redigo
   version: v1.0.0

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/ashilokhvostov/beats/libbeat/common/streambuf"
+	"github.com/ashilokhvostov/beats/packetbeat/protos/applayer"
 )
 
 type parser struct {

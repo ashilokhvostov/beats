@@ -3,9 +3,9 @@
 package load
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/system"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system"
 	"github.com/pkg/errors"
 )
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/metricbeat/schema"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
 	"github.com/stretchr/testify/assert"
 )
 

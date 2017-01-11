@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common/fmtstr"
+	"github.com/ashilokhvostov/beats/libbeat/common/op"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/elasticsearch"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/outil"
 	"github.com/stretchr/testify/assert"
 )
 

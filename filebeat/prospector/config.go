@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
+	cfg "github.com/ashilokhvostov/beats/filebeat/config"
 )
 
 var (

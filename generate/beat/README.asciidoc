@@ -24,7 +24,7 @@ The first step is to get the libbeat source code:
 
 [source,bash]
 ----
-go get github.com/elastic/beats/libbeat
+go get github.com/ashilokhvostov/beats/libbeat
 ----
 
 This will clone the beats repository into `GOPATH`. Now change to the directory where you want to create the beat.
@@ -38,7 +38,7 @@ Run the command:
 
 [source,bash]
 ----
-cookiecutter $GOPATH/src/github.com/elastic/beats/generate/beat
+cookiecutter $GOPATH/src/github.com/ashilokhvostov/beats/generate/beat
 ----
 
 When prompted, enter the Beat name and path.

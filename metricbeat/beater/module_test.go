@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	metricbeat "github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	metricbeat "github.com/ashilokhvostov/beats/metricbeat/beater"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 
 	"github.com/stretchr/testify/assert"
 )

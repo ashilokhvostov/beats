@@ -17,12 +17,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester/encoding"
-	"github.com/elastic/beats/filebeat/harvester/source"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/filebeat/config"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/encoding"
+	"github.com/ashilokhvostov/beats/filebeat/harvester/source"
+	"github.com/ashilokhvostov/beats/filebeat/input"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/libbeat/common"
 )
 
 var (

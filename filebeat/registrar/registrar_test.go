@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/elastic/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
 	"github.com/stretchr/testify/assert"
 )
 

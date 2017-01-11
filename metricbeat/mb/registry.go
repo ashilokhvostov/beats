@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 const initialSize = 10 // initialSize specifies the initial size of the Register.

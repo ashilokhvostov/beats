@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/packetbeat/protos/tcp"
 )
 
 const NFS_PROGRAM_NUMBER = 100003

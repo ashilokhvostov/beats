@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 	"github.com/pkg/errors"
 )
 

@@ -10,12 +10,12 @@ import (
 
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	. "github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/filebeat/publisher"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/paths"
+	cfg "github.com/ashilokhvostov/beats/filebeat/config"
+	. "github.com/ashilokhvostov/beats/filebeat/input"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/filebeat/publisher"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/paths"
 )
 
 type Registrar struct {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 func TestBulk(t *testing.T) {

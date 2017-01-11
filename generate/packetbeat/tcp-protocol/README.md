@@ -7,7 +7,7 @@ want to create the protocol analyzer (stand-alone, within packetbeat based
 project or packetbeat itself):
 
 ```
-cookiecutter $GOPATH/src/github.com/elastic/beats/generate/tcp-protocol
+cookiecutter $GOPATH/src/github.com/ashilokhvostov/beats/generate/tcp-protocol
 ```
 
 This requires [python](https://www.python.org/downloads/) and [cookiecutter](https://github.com/audreyr/cookiecutter) to be installed. More details on how to install cookiecutter can be found [here](http://cookiecutter.readthedocs.io/en/latest/installation.html).
@@ -100,19 +100,19 @@ func echo(sock net.Conn) {
 Create analyzer skeleton from code generator template. 
 
 ```
-  $ cd $GOPATH/src/github.com/elastic/beats/packetbeat/protos
-  $ cookiecutter $GOPATH/src/github.com/elastic/beats/generate/tcp-protocol
+  $ cd $GOPATH/src/github.com/ashilokhvostov/beats/packetbeat/protos
+  $ cookiecutter $GOPATH/src/github.com/ashilokhvostov/beats/generate/tcp-protocol
 ```
 
-Load plugin into packetbeat by adding `_ "github.com/elastic/beats/packetbeat/protos/echo"` to packetbeat import list in `$GOPATH/src/github.com/elastic/beats/packetbeat/main.go`
+Load plugin into packetbeat by adding `_ "github.com/ashilokhvostov/beats/packetbeat/protos/echo"` to packetbeat import list in `$GOPATH/src/github.com/elastic/beats/packetbeat/main.go`
 
 ### 2.2 Standalone beat with protocol analyzer (echo):
 
 Use packetbeat as framework to build custom beat (e.g. for testing) with
 selected protocol plugins only. A protocol plugin can still be added to
 packetbeat later by copying the final plugin to
-`$GOPATH/src/github.com/elastic/beats/packetbeat/protos` and importing module in
-`$GOPATH/src/github.com/elastic/beats/packetbeat/main.go`.
+`$GOPATH/src/github.com/ashilokhvostov/beats/packetbeat/protos` and importing module in
+`$GOPATH/src/github.com/ashilokhvostov/beats/packetbeat/main.go`.
 
 Create custom beat (e.g. github.com/<username>/pb_echo):
 
@@ -128,8 +128,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/packetbeat/beater"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/packetbeat/beater"
 
 	// import supported protocol modules
     _ "github.com/urso/pb_echo/protos/echo"
@@ -150,7 +150,7 @@ Create protocol analyzer module (use name ‘echo’ for new protocol):
 ```
 $ mkdir proto
 $ cd proto
-$ cookiecutter $GOPATH/src/github.com/elastic/beats/generate/tcp-protocol
+$ cookiecutter $GOPATH/src/github.com/ashilokhvostov/beats/generate/tcp-protocol
 ```
 
 ### 3 Implement application layer analyzer

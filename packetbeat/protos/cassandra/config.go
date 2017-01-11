@@ -2,9 +2,9 @@ package cassandra
 
 import (
 	"fmt"
-	"github.com/elastic/beats/packetbeat/config"
-	"github.com/elastic/beats/packetbeat/protos"
-	. "github.com/elastic/beats/packetbeat/protos/cassandra/internal/gocql"
+	"github.com/ashilokhvostov/beats/packetbeat/config"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
+	. "github.com/ashilokhvostov/beats/packetbeat/protos/cassandra/internal/gocql"
 	"github.com/pkg/errors"
 )
 

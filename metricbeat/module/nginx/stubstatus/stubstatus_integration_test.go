@@ -5,8 +5,8 @@ package stubstatus
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/nginx"
+	mbtest "github.com/ashilokhvostov/beats/metricbeat/mb/testing"
+	"github.com/ashilokhvostov/beats/metricbeat/module/nginx"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -7,12 +7,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 )
 
 var (
-	// To enable the data building, run go test  `github.com/elastic/beats/metricbeat/module/system/memory/... -data=true`
+	// To enable the data building, run go test  `github.com/ashilokhvostov/beats/metricbeat/module/system/memory/... -data=true`
 	dataFlag = flag.Bool("data", false, "Enabled creating of data")
 )
 

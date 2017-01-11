@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/packetbeat/flows"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tsg/gopacket"

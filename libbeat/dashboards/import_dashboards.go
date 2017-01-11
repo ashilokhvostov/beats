@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	lbeat "github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	lbeat "github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common/fmtstr"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/elasticsearch"
+	"github.com/ashilokhvostov/beats/libbeat/outputs/outil"
 )
 
 var usage = fmt.Sprintf(`

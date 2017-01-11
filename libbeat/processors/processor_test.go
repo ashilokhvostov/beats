@@ -3,10 +3,10 @@ package processors_test
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	_ "github.com/elastic/beats/libbeat/processors/actions"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/processors"
+	_ "github.com/ashilokhvostov/beats/libbeat/processors/actions"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 type StateOS struct {
@@ -20,7 +20,7 @@ func GetOSState(info os.FileInfo) StateOS {
 
 	// os.SameFile must be called to populate the id fields. Otherwise in case for example
 	// os.Stat(file) is used to get the fileInfo, the ids are empty.
-	// https://github.com/elastic/beats/filebeat/pull/53
+	// https://github.com/ashilokhvostov/beats/filebeat/pull/53
 	os.SameFile(info, info)
 
 	// Gathering fileStat (which is fileInfo) through reflection as otherwise not accessible

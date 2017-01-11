@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/filebeat/prospector"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/filebeat/input/file"
+	"github.com/ashilokhvostov/beats/filebeat/prospector"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 type Crawler struct {

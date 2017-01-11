@@ -5,7 +5,7 @@ package crawler
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common"
 	"github.com/stretchr/testify/assert"
 )
 

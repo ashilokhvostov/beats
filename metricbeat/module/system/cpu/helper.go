@@ -3,7 +3,7 @@
 package cpu
 
 import (
-	"github.com/elastic/beats/metricbeat/module/system"
+	"github.com/ashilokhvostov/beats/metricbeat/module/system"
 	sigar "github.com/elastic/gosigar"
 )
 

@@ -1,10 +1,10 @@
 package info
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/haproxy"
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstrstr"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/module/haproxy"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
+	c "github.com/ashilokhvostov/beats/metricbeat/schema/mapstrstr"
 
 	"reflect"
 	"strconv"

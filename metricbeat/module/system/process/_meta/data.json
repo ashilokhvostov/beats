@@ -12,7 +12,7 @@
     },
     "system": {
         "process": {
-            "cmdline": "go test -tags=integration github.com/elastic/beats/metricbeat/module/... -data",
+            "cmdline": "go test -tags=integration github.com/ashilokhvostov/beats/metricbeat/module/... -data",
             "cpu": {
                 "start_time": "2016-09-06T07:33:04.000Z",
                 "total": {

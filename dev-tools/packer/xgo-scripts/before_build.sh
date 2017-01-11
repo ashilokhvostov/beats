@@ -22,9 +22,9 @@ make install-home HOME_PREFIX=$PREFIX/homedir
 if [ -d $BEAT_PATH/../libbeat/ ]; then
 	# official Beats have libbeat in the top level folder
 	LIBBEAT_PATH=$BEAT_PATH/../libbeat/
-elif [ -d $BEAT_PATH/vendor/github.com/elastic/beats/libbeat/ ]; then
+elif [ -d $BEAT_PATH/vendor/github.com/ashilokhvostov/beats/libbeat/ ]; then
 	# community Beats have libbeat vendored
-	LIBBEAT_PATH=$BEAT_PATH/vendor/github.com/elastic/beats/libbeat/
+	LIBBEAT_PATH=$BEAT_PATH/vendor/github.com/ashilokhvostov/beats/libbeat/
 else
 	echo "Couldn't find the libbeat location"
 	exit 1

@@ -3,7 +3,7 @@
 
 BEATNAME?=libbeat
 BEAT_DESCRIPTION?=Sends events to Elasticsearch or Logstash
-BEAT_DIR?=github.com/elastic/beats/${BEATNAME}
+BEAT_DIR?=github.com/ashilokhvostov/beats/${BEATNAME}
 ES_BEATS?=..
 GOPACKAGES?=${BEAT_DIR}/...
 
@@ -11,13 +11,13 @@ GOPACKAGES?=${BEAT_DIR}/...
 # if glide is used to manage vendor dependencies,
 #     BEATNAME=mybeat
 #     BEAT_DIR=github.com/mybeat
-#     ES_BEATS=./vendor/github.com/elastic/beats
+#     ES_BEATS=./vendor/github.com/ashilokhvostov/beats
 #     GOPACKAGES=$(shell glide novendor)
 #     include $(ES_BEATS)/libbeat/scripts/Makefile
 # else
 #     BEATNAME=mybeat
 #     BEAT_DIR=github.com/mybeat
-#     ES_BEATS=$(GOPATH)/src/github.com/elastic/beats
+#     ES_BEATS=$(GOPATH)/src/github.com/ashilokhvostov/beats
 #     GOPACKAGES=$(shell go list ${BEAT_DIR}/... | grep -v /vendor/)
 #     include $(ES_BEATS)/libbeat/scripts/Makefile
 
@@ -124,7 +124,7 @@ ci:
 prepare-tests:
 	mkdir -p ${COVERAGE_DIR}
 	# gotestcover is needed to fetch coverage for multiple packages
-	go install github.com/elastic/beats/vendor/github.com/pierrre/gotestcover
+	go install github.com/ashilokhvostov/beats/vendor/github.com/pierrre/gotestcover
 
 # Runs the unit tests with coverage
 # Race is not enabled for unit tests because tests run much slower.
@@ -268,7 +268,7 @@ docs:
 .PHONY: docs-preview
 docs-preview:
 	if [ ! -d "build/docs" ]; then $(MAKE) docs; fi;
-	${BUILD_DIR}/docs/build_docs.pl --chunk=1 -open chunk=1 -open --doc ${GOPATH}/src/github.com/elastic/beats/${BEATNAME}/docs/index.asciidoc -out ${BUILD_DIR}/html_docs
+	${BUILD_DIR}/docs/build_docs.pl --chunk=1 -open chunk=1 -open --doc ${GOPATH}/src/github.com/ashilokhvostov/beats/${BEATNAME}/docs/index.asciidoc -out ${BUILD_DIR}/html_docs
 
 
 ### KIBANA FILES HANDLING ###

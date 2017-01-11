@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/dtfmt"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common/dtfmt"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 // EventFormatString implements format string support on events

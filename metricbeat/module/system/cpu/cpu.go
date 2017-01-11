@@ -3,8 +3,8 @@
 package cpu
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 
 	"github.com/pkg/errors"
 )

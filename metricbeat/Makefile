@@ -76,5 +76,5 @@ create-metricset:
 # Generates the data.json example documents
 .PHONY: generate-json
 generate-json: build-image
-	 ${DOCKER_COMPOSE} run beat go test -tags=integration github.com/elastic/beats/metricbeat/module/... -data
+	 ${DOCKER_COMPOSE} run beat go test -tags=integration github.com/ashilokhvostov/beats/metricbeat/module/... -data
 

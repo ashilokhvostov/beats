@@ -38,7 +38,7 @@ install:
       }
   - set PATH=C:\tools\mingw64\bin;%GOROOT%\bin;%PATH%
   - set PATH=%GOPATH%\bin;%PATH%
-  - go install github.com/elastic/beats/vendor/github.com/pierrre/gotestcover
+  - go install github.com/ashilokhvostov/beats/vendor/github.com/pierrre/gotestcover
   - go version
   - go env
   # Download the PyWin32 installer if it is not cached.
@@ -65,7 +65,7 @@ test_script:
   # Unit tests
   - ps: Add-AppveyorTest "Unit Tests" -Outcome Running
   - mkdir build\coverage
-  - gotestcover -race -coverprofile=build/coverage/integration.cov github.com/elastic/beats/%BEAT%/...
+  - gotestcover -race -coverprofile=build/coverage/integration.cov github.com/ashilokhvostov/beats/%BEAT%/...
   - ps: Update-AppveyorTest "Unit Tests" -Outcome Passed
   # System tests
   - ps: Add-AppveyorTest "System tests" -Outcome Running

@@ -3,11 +3,11 @@ package keyspace
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
 
-	"github.com/elastic/beats/metricbeat/module/redis"
+	"github.com/ashilokhvostov/beats/metricbeat/module/redis"
 	rd "github.com/garyburd/redigo/redis"
 )
 

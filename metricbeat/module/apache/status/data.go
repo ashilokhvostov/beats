@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstrstr"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
+	c "github.com/ashilokhvostov/beats/metricbeat/schema/mapstrstr"
 )
 
 var (

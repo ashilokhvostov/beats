@@ -166,7 +166,7 @@ func (m *MetricSet) Fetch() (common.MapStr, error) {
 `Fetch` must return a `common.MapStr`, which will be translated to the JSON content.
 The JSON output will be identical to the naming and structure you use in
 `common.MapStr`. For more details about `MapStr` and its functions, see the
-https://godoc.org/github.com/elastic/beats/libbeat/common#MapStr[MapStr API docs].
+https://godoc.org/github.com/ashilokhvostov/beats/libbeat/common#MapStr[MapStr API docs].
 
 
 [float]
@@ -193,7 +193,7 @@ respect a common {libbeat}/event-conventions.html[set of conventions]. This
 makes it easy for users to find and interpret metrics. To simplify parsing,
 converting, renaming, and restructuring of the object read from the monitored
 system to the Metricbeat format, we have created the
-https://godoc.org/github.com/elastic/beats/metricbeat/schema[schema] package
+https://godoc.org/github.com/ashilokhvostov/beats/metricbeat/schema[schema] package
 that allows you to declaratively define transformations.
 
 For example, assuming this input object:
@@ -229,8 +229,8 @@ You can use the following code to make the transformations:
 [source,go]
 ----
 import (
-	s "github.com/elastic/beats/metricbeat/schema"
-	c "github.com/elastic/beats/metricbeat/schema/mapstrstr"
+	s "github.com/ashilokhvostov/beats/metricbeat/schema"
+	c "github.com/ashilokhvostov/beats/metricbeat/schema/mapstrstr"
 )
 
 var (

@@ -1,7 +1,7 @@
 package amqp
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/common"
 	"time"
 )
 

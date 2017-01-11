@@ -1,4 +1,4 @@
-List of things to keep track on, thoughts on what should be improved. More can also be found in the Github issue under https://github.com/elastic/beats/issues/619
+List of things to keep track on, thoughts on what should be improved. More can also be found in the Github issue under https://github.com/ashilokhvostov/beats/issues/619
 
 
 # Kibana Dashboards
@@ -20,4 +20,4 @@ The mapping for each metricset must be completed and verified
 For most metricset, setup creates the connections to the remote hosts. One potential issue is, that if one connection goes down, that it is not setup again means an error is reported in the future. Does this mean Setup should be called every time before fetch but must be able to handle multiple calls? What is the best approach here to guarantee reconnection in case some connections go down?
 
 # More
-* Add version number of service. See https://github.com/elastic/beats/issues/619#issuecomment-185242407
+* Add version number of service. See https://github.com/ashilokhvostov/beats/issues/619#issuecomment-185242407

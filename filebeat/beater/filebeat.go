@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/crawler"
-	"github.com/elastic/beats/filebeat/publisher"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/filebeat/spooler"
+	cfg "github.com/ashilokhvostov/beats/filebeat/config"
+	"github.com/ashilokhvostov/beats/filebeat/crawler"
+	"github.com/ashilokhvostov/beats/filebeat/publisher"
+	"github.com/ashilokhvostov/beats/filebeat/registrar"
+	"github.com/ashilokhvostov/beats/filebeat/spooler"
 )
 
 // Filebeat is a beater object. Contains all objects needed to run the beat

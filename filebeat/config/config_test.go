@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/cfgfile"
+	"github.com/ashilokhvostov/beats/libbeat/cfgfile"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -200,7 +200,7 @@ field name is missing from the event.
 
 You can also format time stored in the
 `@timestamp` field using the `+FORMAT` syntax where FORMAT is a valid (time
-format)[https://godoc.org/github.com/elastic/beats/libbeat/common/dtfmt].
+format)[https://godoc.org/github.com/ashilokhvostov/beats/libbeat/common/dtfmt].
 
 ["source","yaml",subs="attributes"]
 ------------------------------------------------------------------------------

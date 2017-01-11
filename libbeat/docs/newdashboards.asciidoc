@@ -15,7 +15,7 @@ When you're done making changes to the dashboards in Kibana, you can use the `ex
 
 To make sure the dashboards are compatible with the latest version of Kibana and Elasticsearch, we
 recommend that you use the virtual environment under
-https://github.com/elastic/beats/tree/master/testing/environments[beats/testing/environments] to import, create, and
+https://github.com/ashilokhvostov/beats/tree/master/testing/environments[beats/testing/environments] to import, create, and
 export the Kibana dashboards.
 
 The following topics provide more detail about importing and working with Beats dashboards:
@@ -31,7 +31,7 @@ The following topics provide more detail about importing and working with Beats 
 
 You can use the `import_dashboards` script to import all the dashboards and the index pattern for a Beat, including the dependencies such as visualizations and searches.
 The `import_dashboards` script is available under
-https://github.com/elastic/beats/tree/master/libbeat/dashboards[beats/libbeat/dashboards]. It's also available in each Beat package under the `scripts` directory.
+https://github.com/ashilokhvostov/beats/tree/master/libbeat/dashboards[beats/libbeat/dashboards]. It's also available in each Beat package under the `scripts` directory.
 
 There are a couple of common use cases for importing dashboards:
 
@@ -98,7 +98,7 @@ See <<import-dashboard-options>> for a description of other import options.
 [[import-dashboards-for-development]]
 ==== Import Dashboards for Development
 
-For development or community Beats, it's easier to run the `import_dashboards` script from the https://github.com/elastic/beats/tree/master/libbeat/dashboards[beats/libbeat/dashboards] directory. In this case, you need to first compile the script:
+For development or community Beats, it's easier to run the `import_dashboards` script from the https://github.com/ashilokhvostov/beats/tree/master/libbeat/dashboards[beats/libbeat/dashboards] directory. In this case, you need to first compile the script:
 
 [source,shell]
 -----------------------
@@ -264,8 +264,8 @@ make update
 
 To export all the dashboards for any Elastic Beat or any community Beat, including any new or modified dashboards and all dependencies such as
 visualizations, searches, you can use the Python script `export_dashboards.py` from
-https://github.com/elastic/beats/tree/master/dev-tools[dev-tools]. See the dev-tools
-https://github.com/elastic/beats/tree/master/dev-tools/README.md[readme] for more info.
+https://github.com/ashilokhvostov/beats/tree/master/dev-tools[dev-tools]. See the dev-tools
+https://github.com/ashilokhvostov/beats/tree/master/dev-tools/README.md[readme] for more info.
 
 
 NOTE: You can make use of the Makefile from the Beat GitHub repository to export all the Kibana dashboards for a Beat

@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/ashilokhvostov/beats/packetbeat/procs"
+	"github.com/ashilokhvostov/beats/packetbeat/protos"
 )
 
 // Only EDNS packets should have their size beyond this value

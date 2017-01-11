@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/winlogbeat/checkpoint"
-	"github.com/elastic/beats/winlogbeat/config"
-	"github.com/elastic/beats/winlogbeat/eventlog"
+	"github.com/ashilokhvostov/beats/libbeat/beat"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
+	"github.com/ashilokhvostov/beats/libbeat/paths"
+	"github.com/ashilokhvostov/beats/libbeat/publisher"
+	"github.com/ashilokhvostov/beats/winlogbeat/checkpoint"
+	"github.com/ashilokhvostov/beats/winlogbeat/config"
+	"github.com/ashilokhvostov/beats/winlogbeat/eventlog"
 )
 
 // Metrics that can retrieved through the expvar web interface. Metrics must be

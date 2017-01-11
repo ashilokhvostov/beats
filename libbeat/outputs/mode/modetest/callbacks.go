@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/ashilokhvostov/beats/libbeat/outputs"
 )
 
 type errNetTimeout struct{}

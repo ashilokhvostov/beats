@@ -1,9 +1,9 @@
 package status
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/mongodb"
+	"github.com/ashilokhvostov/beats/libbeat/common"
+	"github.com/ashilokhvostov/beats/metricbeat/mb"
+	"github.com/ashilokhvostov/beats/metricbeat/module/mongodb"
 
 	"github.com/pkg/errors"
 	"gopkg.in/mgo.v2"

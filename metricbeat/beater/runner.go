@@ -3,7 +3,7 @@ package beater
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/ashilokhvostov/beats/libbeat/publisher"
 )
 
 // ModuleRunner is a facade for a ModuleWrapper that provides a simple interface

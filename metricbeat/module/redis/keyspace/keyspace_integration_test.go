@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/redis"
+	mbtest "github.com/ashilokhvostov/beats/metricbeat/mb/testing"
+	"github.com/ashilokhvostov/beats/metricbeat/module/redis"
 
 	rd "github.com/garyburd/redigo/redis"
 	"github.com/stretchr/testify/assert"

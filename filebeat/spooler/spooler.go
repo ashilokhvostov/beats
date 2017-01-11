@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/libbeat/logp"
+	cfg "github.com/ashilokhvostov/beats/filebeat/config"
+	"github.com/ashilokhvostov/beats/filebeat/input"
+	"github.com/ashilokhvostov/beats/libbeat/logp"
 )
 
 var debugf = logp.MakeDebug("spooler")

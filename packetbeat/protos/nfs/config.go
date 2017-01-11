@@ -1,7 +1,7 @@
 package nfs
 
 import (
-	"github.com/elastic/beats/packetbeat/config"
+	"github.com/ashilokhvostov/beats/packetbeat/config"
 	"time"
 )
 
